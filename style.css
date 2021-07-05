@@ -64,12 +64,15 @@ h1{
 }
 #Mid{
     border-left: 7px solid;
-    border-image:linear-gradient(salmon,orange);
-    border-image-slice: 1;   
+    border-top: 7px dashed;
+    border-image:linear-gradient(red,black,yellowgreen,tomato);
+    border-image-slice: 1;
+    
 }
 #Baby{
     border-left: 7px solid;
-    border-image:linear-gradient(salmon,rgb(90, 32, 5));
+    border-top: 7px solid;
+    border-image:linear-gradient(rgb(1, 187, 47),rgb(255, 128, 69),red,black);
     border-image-slice: 1;    
 }
 .banar{
